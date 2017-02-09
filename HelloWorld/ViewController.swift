@@ -7,23 +7,3 @@
 //
 
 import UIKit
-
-class ViewController: UIViewController {
-    @IBOutlet weak var label: UILabel!
-
-    @IBAction func handle(sender: AnyObject) {
-        label.text = "Swift"
-    }
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
-}
-

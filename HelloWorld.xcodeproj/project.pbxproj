@@ -14,6 +14,7 @@
 		E4384C081E4769AB0029F921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4384C061E4769AB0029F921 /* LaunchScreen.storyboard */; };
 		E4384C131E4769AC0029F921 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384C121E4769AC0029F921 /* HelloWorldTests.swift */; };
 		E4384C1E1E4769AC0029F921 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384C1D1E4769AC0029F921 /* HelloWorldUITests.swift */; };
+		E4384C661E4C58170029F921 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384C651E4C58170029F921 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E4384C191E4769AC0029F921 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4384C1D1E4769AC0029F921 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		E4384C1F1E4769AC0029F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4384C651E4C58170029F921 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		E4384BF11E4769AA0029F921 = {
 			isa = PBXGroup;
 			children = (
+				E4384C651E4C58170029F921 /* ResultViewController.swift */,
 				E4384BFC1E4769AB0029F921 /* HelloWorld */,
 				E4384C111E4769AC0029F921 /* HelloWorldTests */,
 				E4384C1C1E4769AC0029F921 /* HelloWorldUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				E4384C001E4769AB0029F921 /* ViewController.swift in Sources */,
 				E4384BFE1E4769AB0029F921 /* AppDelegate.swift in Sources */,
+				E4384C661E4C58170029F921 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				E4384C241E4769AC0029F921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4384C251E4769AC0029F921 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				E4384C271E4769AC0029F921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4384C281E4769AC0029F921 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				E4384C2A1E4769AC0029F921 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

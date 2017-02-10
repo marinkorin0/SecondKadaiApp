@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4384CB21E4D46DA0029F921 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384CB11E4D46DA0029F921 /* AppDelegate.swift */; };
+		E4384CB41E4D46DA0029F921 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384CB31E4D46DA0029F921 /* ViewController.swift */; };
+		E4384CB71E4D46DA0029F921 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4384CB51E4D46DA0029F921 /* Main.storyboard */; };
+		E4384CB91E4D46DA0029F921 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4384CB81E4D46DA0029F921 /* Assets.xcassets */; };
+		E4384CBC1E4D46DA0029F921 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4384CBA1E4D46DA0029F921 /* LaunchScreen.storyboard */; };
+		E4384CC71E4D46DA0029F921 /* hello1marikoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384CC61E4D46DA0029F921 /* hello1marikoTests.swift */; };
+		E4384CD21E4D46DA0029F921 /* hello1marikoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384CD11E4D46DA0029F921 /* hello1marikoUITests.swift */; };
+		E4384CE21E4D4D040029F921 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4384CE11E4D4D040029F921 /* ResultViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4384CC31E4D46DA0029F921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4384CA61E4D46DA0029F921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4384CAD1E4D46DA0029F921;
+			remoteInfo = hello1mariko;
+		};
+		E4384CCE1E4D46DA0029F921 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4384CA61E4D46DA0029F921 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4384CAD1E4D46DA0029F921;
+			remoteInfo = hello1mariko;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4384CAE1E4D46DA0029F921 /* hello1mariko.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hello1mariko.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4384CB11E4D46DA0029F921 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4384CB31E4D46DA0029F921 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4384CB61E4D46DA0029F921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4384CB81E4D46DA0029F921 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4384CBB1E4D46DA0029F921 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4384CBD1E4D46DA0029F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4384CC21E4D46DA0029F921 /* hello1marikoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello1marikoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4384CC61E4D46DA0029F921 /* hello1marikoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello1marikoTests.swift; sourceTree = "<group>"; };
+		E4384CC81E4D46DA0029F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4384CCD1E4D46DA0029F921 /* hello1marikoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hello1marikoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4384CD11E4D46DA0029F921 /* hello1marikoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello1marikoUITests.swift; sourceTree = "<group>"; };
+		E4384CD31E4D46DA0029F921 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4384CE11E4D4D040029F921 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4384CAB1E4D46DA0029F921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4384CBF1E4D46DA0029F921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4384CCA1E4D46DA0029F921 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4384CA51E4D46DA0029F921 = {
+			isa = PBXGroup;
+			children = (
+				E4384CB01E4D46DA0029F921 /* hello1mariko */,
+				E4384CC51E4D46DA0029F921 /* hello1marikoTests */,
+				E4384CD01E4D46DA0029F921 /* hello1marikoUITests */,
+				E4384CAF1E4D46DA0029F921 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4384CAF1E4D46DA0029F921 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4384CAE1E4D46DA0029F921 /* hello1mariko.app */,
+				E4384CC21E4D46DA0029F921 /* hello1marikoTests.xctest */,
+				E4384CCD1E4D46DA0029F921 /* hello1marikoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4384CB01E4D46DA0029F921 /* hello1mariko */ = {
+			isa = PBXGroup;
+			children = (
+				E4384CB11E4D46DA0029F921 /* AppDelegate.swift */,
+				E4384CB31E4D46DA0029F921 /* ViewController.swift */,
+				E4384CE11E4D4D040029F921 /* ResultViewController.swift */,
+				E4384CB51E4D46DA0029F921 /* Main.storyboard */,
+				E4384CB81E4D46DA0029F921 /* Assets.xcassets */,
+				E4384CBA1E4D46DA0029F921 /* LaunchScreen.storyboard */,
+				E4384CBD1E4D46DA0029F921 /* Info.plist */,
+			);
+			path = hello1mariko;
+			sourceTree = "<group>";
+		};
+		E4384CC51E4D46DA0029F921 /* hello1marikoTests */ = {
+			isa = PBXGroup;
+			children = (
+				E4384CC61E4D46DA0029F921 /* hello1marikoTests.swift */,
+				E4384CC81E4D46DA0029F921 /* Info.plist */,
+			);
+			path = hello1marikoTests;
+			sourceTree = "<group>";
+		};
+		E4384CD01E4D46DA0029F921 /* hello1marikoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E4384CD11E4D46DA0029F921 /* hello1marikoUITests.swift */,
+				E4384CD31E4D46DA0029F921 /* Info.plist */,
+			);
+			path = hello1marikoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4384CAD1E4D46DA0029F921 /* hello1mariko */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4384CD61E4D46DA0029F921 /* Build configuration list for PBXNativeTarget "hello1mariko" */;
+			buildPhases = (
+				E4384CAA1E4D46DA0029F921 /* Sources */,
+				E4384CAB1E4D46DA0029F921 /* Frameworks */,
+				E4384CAC1E4D46DA0029F921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello1mariko;
+			productName = hello1mariko;
+			productReference = E4384CAE1E4D46DA0029F921 /* hello1mariko.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4384CC11E4D46DA0029F921 /* hello1marikoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4384CD91E4D46DA0029F921 /* Build configuration list for PBXNativeTarget "hello1marikoTests" */;
+			buildPhases = (
+				E4384CBE1E4D46DA0029F921 /* Sources */,
+				E4384CBF1E4D46DA0029F921 /* Frameworks */,
+				E4384CC01E4D46DA0029F921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4384CC41E4D46DA0029F921 /* PBXTargetDependency */,
+			);
+			name = hello1marikoTests;
+			productName = hello1marikoTests;
+			productReference = E4384CC21E4D46DA0029F921 /* hello1marikoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E4384CCC1E4D46DA0029F921 /* hello1marikoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4384CDC1E4D46DA0029F921 /* Build configuration list for PBXNativeTarget "hello1marikoUITests" */;
+			buildPhases = (
+				E4384CC91E4D46DA0029F921 /* Sources */,
+				E4384CCA1E4D46DA0029F921 /* Frameworks */,
+				E4384CCB1E4D46DA0029F921 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4384CCF1E4D46DA0029F921 /* PBXTargetDependency */,
+			);
+			name = hello1marikoUITests;
+			productName = hello1marikoUITests;
+			productReference = E4384CCD1E4D46DA0029F921 /* hello1marikoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4384CA61E4D46DA0029F921 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "小林真理子";
+				TargetAttributes = {
+					E4384CAD1E4D46DA0029F921 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E4384CC11E4D46DA0029F921 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4384CAD1E4D46DA0029F921;
+					};
+					E4384CCC1E4D46DA0029F921 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E4384CAD1E4D46DA0029F921;
+					};
+				};
+			};
+			buildConfigurationList = E4384CA91E4D46DA0029F921 /* Build configuration list for PBXProject "hello1mariko" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E4384CA51E4D46DA0029F921;
+			productRefGroup = E4384CAF1E4D46DA0029F921 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4384CAD1E4D46DA0029F921 /* hello1mariko */,
+				E4384CC11E4D46DA0029F921 /* hello1marikoTests */,
+				E4384CCC1E4D46DA0029F921 /* hello1marikoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4384CAC1E4D46DA0029F921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4384CBC1E4D46DA0029F921 /* LaunchScreen.storyboard in Resources */,
+				E4384CB91E4D46DA0029F921 /* Assets.xcassets in Resources */,
+				E4384CB71E4D46DA0029F921 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4384CC01E4D46DA0029F921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4384CCB1E4D46DA0029F921 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4384CAA1E4D46DA0029F921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4384CB41E4D46DA0029F921 /* ViewController.swift in Sources */,
+				E4384CB21E4D46DA0029F921 /* AppDelegate.swift in Sources */,
+				E4384CE21E4D4D040029F921 /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4384CBE1E4D46DA0029F921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4384CC71E4D46DA0029F921 /* hello1marikoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4384CC91E4D46DA0029F921 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4384CD21E4D46DA0029F921 /* hello1marikoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4384CC41E4D46DA0029F921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4384CAD1E4D46DA0029F921 /* hello1mariko */;
+			targetProxy = E4384CC31E4D46DA0029F921 /* PBXContainerItemProxy */;
+		};
+		E4384CCF1E4D46DA0029F921 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4384CAD1E4D46DA0029F921 /* hello1mariko */;
+			targetProxy = E4384CCE1E4D46DA0029F921 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4384CB51E4D46DA0029F921 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4384CB61E4D46DA0029F921 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4384CBA1E4D46DA0029F921 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4384CBB1E4D46DA0029F921 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4384CD41E4D46DA0029F921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4384CD51E4D46DA0029F921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4384CD71E4D46DA0029F921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hello1mariko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mariko.kobayashi.hello1mariko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E4384CD81E4D46DA0029F921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hello1mariko/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mariko.kobayashi.hello1mariko;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E4384CDA1E4D46DA0029F921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hello1marikoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mariko.kobayashi.hello1marikoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello1mariko.app/hello1mariko";
+			};
+			name = Debug;
+		};
+		E4384CDB1E4D46DA0029F921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = hello1marikoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mariko.kobayashi.hello1marikoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello1mariko.app/hello1mariko";
+			};
+			name = Release;
+		};
+		E4384CDD1E4D46DA0029F921 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hello1marikoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mariko.kobayashi.hello1marikoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hello1mariko;
+			};
+			name = Debug;
+		};
+		E4384CDE1E4D46DA0029F921 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = hello1marikoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.mariko.kobayashi.hello1marikoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = hello1mariko;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4384CA91E4D46DA0029F921 /* Build configuration list for PBXProject "hello1mariko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4384CD41E4D46DA0029F921 /* Debug */,
+				E4384CD51E4D46DA0029F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4384CD61E4D46DA0029F921 /* Build configuration list for PBXNativeTarget "hello1mariko" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4384CD71E4D46DA0029F921 /* Debug */,
+				E4384CD81E4D46DA0029F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4384CD91E4D46DA0029F921 /* Build configuration list for PBXNativeTarget "hello1marikoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4384CDA1E4D46DA0029F921 /* Debug */,
+				E4384CDB1E4D46DA0029F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E4384CDC1E4D46DA0029F921 /* Build configuration list for PBXNativeTarget "hello1marikoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4384CDD1E4D46DA0029F921 /* Debug */,
+				E4384CDE1E4D46DA0029F921 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4384CA61E4D46DA0029F921 /* Project object */;
+}
